@@ -29,5 +29,5 @@ A python function to compare images and calculate a similarity index
 
  ## How it works:
  <p> When you first invoke the program, it prompts you to enter the path to a CSV file. It is assumed that the file is structured into two columns titled image1 and image2 and each row gives the paths to a pair of images that are desired to be compared.</p>
- <p> The program then utilizes modules from <strong>csv</strong> and </strong>pandas</strong> libraries to parse the file and extract the images and pass them as arguments to a separate function. This function utilizes the <strong>opencv</strong> to perform the comparison if the images using the subtract methods.
+ <p> The program then utilizes modules from <strong>csv</strong> and <strong>pandas</strong> libraries to parse the file and extract the images and pass them as arguments to a separate function. This function utilizes the <strong>opencv</strong> to perform the comparison if the images using the subtract methods.
  </p>
