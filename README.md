@@ -7,10 +7,19 @@ A python function to compare images and calculate a similarity index
 - Parses the CSV file which consists of paths to the images to be compared
 - Calculates the difference or "similarity index", a number between 0 and 1 , 0 being identical images and 1 being completely dissimilar images </p>
 
-## Prerequisites
- <p> - Python 3 : You need to have  Python 3 installed on your system</p>
- <p> - Pipenv: Although not absolutely necessary, it is highly recommended that you use pipenv to utilize this repository as that will ensure that it functions on most Operating systems.</p>
-
+## Prerequisites/ Assumptions
+ <p> 
+ (1) Python 3 : You need to have  Python 3 installed on your system
+ </p>
+ (2) pip: You need to have pip (for Python3) installed. It usually comes installed with Python. Alternatively, you can get it from https://pip.pypa.io/en/stable/installing/ .
+ </p>
+ <p>
+  (3) pipenv: Although not absolutely necessary, it is highly recommended that you use pipenv to utilize this repository as that will ensure that it functions on most Operating systems.
+  </p>
+ <p>
+ (4) The images that are being compared are of equal size (i.e, Height  and Width). If they are not, logic can be added to the code to first resize both images to a fixed size before performing the  comparison, using opencv's **resize** module.
+ </p>
+ 
 ## Usage
 </p>  - Clone this repository</p>
 </p>  - Change to the root directory of the repository</p>
