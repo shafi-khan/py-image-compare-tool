@@ -10,6 +10,7 @@ A python function to compare images and calculate a similarity index
 ## Prerequisites
  <p> - Python 3 : You need to have  Python 3 installed on your system</p>
  <p> - Pipenv: Although not absolutely necessary, it is highly recommended that you use pipenv to utilize this repository as that will ensure that it functions on most Operating systems.</p>
+
 ## Usage
 </p>  - Clone this repository</p>
 </p>  - Change to the root directory of the repository</p>
