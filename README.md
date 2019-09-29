@@ -33,9 +33,9 @@ A python function to compare images and calculate a similarity index
 (2) You have pip (for Python3) installed. It usually comes installed with Python. Alternatively, you can get it from https://pip.pypa.io/en/stable/installing/ .
 </p>
 <p>
-(3) The images that are being compared are of equal size (i.e, Height  and Width). If they are not, logic can be added to the code to first resize both images to a fixed size before performing the  comparison, using opencv's <strong>resize</strong> module.
+(3) The images that are being compared are of equal size (i.e, Height  and Width). If they are not, logic can be added to the code to first resize both images to a fixed size before performing the  comparison, using OPENCV's <strong>resize</strong> module.
 </p>
  ## How it works:
- <p> When you first invoke the program, it prompts you to enter the path to a CSV file. It is assumed that the file is structured into two colums titled image1 and image2 and each row gives the paths to a pair of images that are desired to be compared.</p>
- <p> The program then utilizes modules from <strong>csv<strong> and <strong>pandas<strong> libraries to parse the file and extract the images and pass them as arguments to a separate function. This function utilizes the <strong>opencv</strong> to perform the comparison if the images using the subtract methods.
+ <p> When you first invoke the program, it prompts you to enter the path to a CSV file. It is assumed that the file is structured into two columns titled image1 and image2 and each row gives the paths to a pair of images that are desired to be compared.</p>
+ <p> The program then utilizes modules from <strong>csv</strong> and </strong>pandas</strong> libraries to parse the file and extract the images and pass them as arguments to a separate function. This function utilizes the <strong>opencv</strong> to perform the comparison if the images using the subtract methods.
  </p>
