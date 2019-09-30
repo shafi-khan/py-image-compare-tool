@@ -9,17 +9,17 @@ A python function to compare images and calculate a similarity index
 
 ## Prerequisites/ Assumptions
  <p>
- (1) Python 3 : You need to have  Python 3 installed on your system
+ [1] Python 3 : You need to have  Python 3 installed on your system
  </p>
- (2) pip: You need to have pip (for Python3) installed. It usually comes installed with Python. Alternatively, you can get it from https://pip.pypa.io/en/stable/installing/ .
+ [2] pip: You need to have pip (for Python3) installed. It usually comes installed with Python. Alternatively, you can get it from https://pip.pypa.io/en/stable/installing/ .
  </p>
  <p>
-  (3) pipenv: Although not absolutely necessary, it is highly recommended that you use pipenv to utilize this repository as that will ensure that it functions on most Operating systems.
+  [3] pipenv: Although not absolutely necessary, it is highly recommended that you use pipenv to utilize this repository as that will ensure that it functions on most Operating systems.
   </p>
  <p>
- (4) The images that are being compared are of equal size (i.e, Height  and Width). If they are not, logic can be added to the code to first resize both images to a fixed size before performing the  comparison, using opencv's <strong>resize</strong> module.
+ [4] The images that are being compared are of equal size (i.e, Height  and Width). If they are not, logic can be added to the code to first resize both images to a fixed size before performing the  comparison, using opencv's <strong>resize</strong> module.
  </p>
- (5) the images are R, G, B images i.e, they consist of three indiidual pixel components, Red, Green and Blue.
+ [5] the images are R, G, B images i.e, they consist of three indiidual pixel components, Red, Green and Blue.
 
 ## Usage
 </p>  - Clone this repository</p>
@@ -37,9 +37,9 @@ A python function to compare images and calculate a similarity index
 The total count is then normalized to result in a value between 0 and 1 where 0 = identical images and 1 = completely dissimilar images.
  
 ## References:
-(i) pipenv: https://github.com/pypa/pipenv
+[i] pipenv: https://github.com/pypa/pipenv
 
-(ii) Python CSV: https://docs.python.org/3/library/csv.html
+[ii] Python CSV: https://docs.python.org/3/library/csv.html
 
-(iii) OpenCV: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwj68-CsvvfkAhUhVt8KHXKzC8gQFjABegQIARAC&url=https%3A%2F%2Freadthedocs.org%2Fprojects%2Fopencv-python-tutroals%2Fdownloads%2Fpdf%2Flatest%2F&usg=AOvVaw3zyOCJCjMjJ7F7syrUISIu
+[iii] OpenCV: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwj68-CsvvfkAhUhVt8KHXKzC8gQFjABegQIARAC&url=https%3A%2F%2Freadthedocs.org%2Fprojects%2Fopencv-python-tutroals%2Fdownloads%2Fpdf%2Flatest%2F&usg=AOvVaw3zyOCJCjMjJ7F7syrUISIu
 
