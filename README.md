@@ -35,3 +35,11 @@ A python function to compare images and calculate a similarity index
  </p>
  <p> The image pair is compared using OPENCV's subtract method which will result in a 'difference image' consisting of '0' or '1' values for the individual R,G,B components. These components are extracted into three different variables and we use the 'countNonZero' method   to count the number of Non-zero pixels, where 0 results from identical pixels overlapping and 1 results from dissimilar pixels.
 The total count is then normalized to result in a value between 0 and 1 where 0 = identical images and 1 = completely dissimilar images.
+ 
+## References:
+(i) pipenv: https://github.com/pypa/pipenv
+
+(ii) Python CSV: https://docs.python.org/3/library/csv.html
+
+(iii) OpenCV: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwj68-CsvvfkAhUhVt8KHXKzC8gQFjABegQIARAC&url=https%3A%2F%2Freadthedocs.org%2Fprojects%2Fopencv-python-tutroals%2Fdownloads%2Fpdf%2Flatest%2F&usg=AOvVaw3zyOCJCjMjJ7F7syrUISIu
+
