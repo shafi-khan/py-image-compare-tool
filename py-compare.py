@@ -34,8 +34,8 @@ def parser(input_file):
                 # print("Similarity: ",sim_index[i])
 
             # Add the elapsed time and similarity index columns to the csv  file
-            data['Similarity Index'] = sim_index
-            data['Elapsed Time'] = elapsed_time_seconds
+            data['score'] = sim_index
+            data['elapsed'] = elapsed_time_seconds
             data.to_csv(input_file, index=False)
 
 def compare_images(a,b):
