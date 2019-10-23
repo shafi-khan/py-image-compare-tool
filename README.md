@@ -14,12 +14,12 @@ A python function to compare images and calculate a similarity index
  [2] pip: You need to have pip (for Python3) installed. It usually comes installed with Python. Alternatively, you can get it from https://pip.pypa.io/en/stable/installing/ .
  </p>
  <p>
-  [3] pipenv: Although not absolutely necessary, it is highly recommended that you use pipenv to utilize this repository as that will ensure that it functions on most Operating systems.
+  [3] pipenv: Although not absolutely necessary, it is highly recommended that you use pipenv to utilize this repository as this will ensure that it functions on most operating systems.
   </p>
  <p>
  [4] The images that are being compared are of equal size (i.e, Height  and Width). If they are not, logic can be added to the code to first resize both images to a fixed size before performing the  comparison, using opencv's <strong>resize</strong> module.
  </p>
- [5] the images are R, G, B images i.e, they consist of three indiidual pixel components, Red, Green and Blue.
+ [5] the images are R, G, B images i.e, they consist of three individual pixel components, Red, Green and Blue.
 
 ## Usage
 </p>  - Clone this repository</p>
